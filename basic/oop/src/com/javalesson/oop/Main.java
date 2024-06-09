@@ -15,8 +15,8 @@ public class Main {
         Dog dog4 = new Dog();
         dog4.setName("лёля");
 
-        System.out.println("dogs count - " + Dog.getDogsCount());
+//        System.out.println("dogs count - " + Dog.getDogsCount());
 
-        dog.bite();
+//        dog.bite();
     }
 }
