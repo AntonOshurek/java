@@ -74,11 +74,11 @@ public class Dog {
     }
 
     public void bark() {
-        if (this.size.equalsIgnoreCase("Big")) {
+        if (("Big").equalsIgnoreCase((this.size))) {
             System.out.println("Wof - Wof!");
-        } else if(this.size.equalsIgnoreCase("Average")) {
+        } else if(("Average").equalsIgnoreCase(this.size)) {
             System.out.println("Raf - Raf!");
-        } else if (this.size.equalsIgnoreCase("Small")) {
+        } else if (("Small").equalsIgnoreCase(this.size)) {
             System.out.println("Tiaf - tiaf!");
         }
     }
