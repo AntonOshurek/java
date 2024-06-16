@@ -2,24 +2,14 @@ package com.javalesson.oop;
 
 public class Dog {
     private static int dogsCount;
-    private int paws = 4;
-    private int tail = 1;
+    public static final int PAWS = 4;
+    public static final int TAIL = 1;
     private String name;
     private String breed;
-    private String size;
+    private Size size;
 
     public Dog() {
         dogsCount++;
-    }
-
-    private boolean validateSize(String size) {
-        if (size.equalsIgnoreCase("Big") ||
-                size.equalsIgnoreCase("Small") ||
-                size.equalsIgnoreCase("Average")) {
-            return true;
-        } else {
-            return false;
-        }
     }
 
     public static int getDogsCount() {
@@ -27,17 +17,11 @@ public class Dog {
     }
 
 
-    public String getSize() {
+    public Size getSize() {
         return size;
     }
 
-    public void setSize(String size) {
-        if (this.validateSize(size)) {
-            this.size = size;
-        } else {
-            System.out.println("sise should be on of these: Big, Average or Small.");
-        }
-
+    public void setSize(Size size) {
         this.size = size;
     }
 
@@ -49,22 +33,6 @@ public class Dog {
         return name;
     }
 
-    public int getPaws() {
-        return paws;
-    }
-
-    public void setPaws(int paws) {
-        this.paws = paws;
-    }
-
-    public int getTail() {
-        return tail;
-    }
-
-    public void setTail(int tail) {
-        this.tail = tail;
-    }
-
     public String getBreed() {
         return breed;
     }
@@ -74,17 +42,23 @@ public class Dog {
     }
 
     public void bark() {
-        if (("Big").equalsIgnoreCase((this.size))) {
-            System.out.println("Wof - Wof!");
-        } else if(("Average").equalsIgnoreCase(this.size)) {
-            System.out.println("Raf - Raf!");
-        } else if (("Small").equalsIgnoreCase(this.size)) {
-            System.out.println("Tiaf - tiaf!");
+        switch (size) {
+            case BIG:
+            case VERY_BIG:
+                System.out.println("Wof - Wof!");
+                break;
+            case AVERAGE:
+                System.out.println("Raf - Raf!");
+                break;
+            case SMALL:
+            case VERY_SMALL:
+                System.out.println("Tiaf - tiaf!");
+                break;
         }
     }
 
     public void bite() {
-        if(dogsCount > 3) {
+        if (dogsCount > 3) {
             System.out.println("кусь кусь нас больше чем 3 собаки в этом класе!");
         } else {
             this.bark();
