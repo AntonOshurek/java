@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.setName("bobik");
-        dog.setSize("Small");
+        dog.setSize(Size.SMALL);
 
         Dog dog2 = new Dog();
         dog2.setName("шарик");
@@ -14,9 +14,5 @@ public class Main {
 
         Dog dog4 = new Dog();
         dog4.setName("лёля");
-
-//        System.out.println("dogs count - " + Dog.getDogsCount());
-
-//        dog.bite();
     }
 }
