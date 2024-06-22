@@ -8,5 +8,6 @@ public class ConstructorMain {
         Employee employee2 = new Employee("Wojciech", "software engeneer", 28000);
 
         System.out.println(employee.toString());
+        System.out.println(employee2.toString());
     }
 }
