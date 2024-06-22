@@ -6,7 +6,7 @@ public class Dog {
     public static final int TAIL = 1;
     private String name;
     private String breed;
-    private Size size;
+    private Size size = Size.UNDEFINED;
 
     public Dog() {
         dogsCount++;
@@ -54,6 +54,8 @@ public class Dog {
             case VERY_SMALL:
                 System.out.println("Tiaf - tiaf!");
                 break;
+            default:
+                System.out.println("Dog's size is undefined");
         }
     }
 
