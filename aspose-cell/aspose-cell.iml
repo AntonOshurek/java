@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Aspose" level="project" />
+    <orderEntry type="library" name="aspose-cells-24.9" level="project" />
   </component>
 </module>
