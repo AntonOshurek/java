@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Aspose">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridJs/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridJs/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridWeb/springboot3.3demo/.mvn/wrapper" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridWeb/springboot3.3demo/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridWeb/springboot3.3demo/src/test/java" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridWeb/springdemo/.mvn/wrapper" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridWeb/springdemo/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples.GridWeb/war/project/src" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Examples/src" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Plugins/Aspose-Cells-Java-for-Eclipse(Maven)/AsposeCellsEclipsePlugin/src" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Plugins/Aspose-Cells-Java-for-NetBeans(Maven)/src" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Plugins/Aspose_Cells_Java_for_IntelliJ(Maven)/src" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Plugins/Aspose_Cells_Java_for_Xlsx4j/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/Plugins/Aspose_Cells_for_Apache_POI/Aspose-Cells-for-Apache-POI-(Maven)/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/Aspose.Cells-for-Java-master/cells_explorer/src" />
+    </SOURCES>
+  </library>
+</component>
